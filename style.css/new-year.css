@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* btn styles */
+.btn-primary{
+    border-radius: 5px;
+    border: 0;
+    background: orangered;
+    color: white;
+    font-weight: 700;
+    font-size: 24px;
+    padding: 18px 35px;
+}
+/* banner styles */
+.banner-title{
+    font-weight: 700;
+    font-size: 65px;
+    text-align: right;
+
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+}
+/* background image */
+.header{
+    background-image: url('../images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 808px;
+    padding-right: 230px;
+    padding-top: 216px;
+}
+main{
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* About Section */
+.about{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 350px;
+}
+.info-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-top: 100px ;
+    padding-right:480px ;
+}
+.info-description{
+    font-weight: 400;
+    font-size: 16px;
+}
+/* my plan styles */
+.plans-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+.plan-container{
+    display: flex;
+    padding-left: 50px;
+    justify-content: space-around;
+}
+.plan-title{
+    font-weight: 900;
+    font-size: 30px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+}
+/* support section styles */
+.support{
+    padding-top:100px;
+    padding-left: 195px;
+}
+.btn-secondary{
+    border-radius: 5px;
+    border: 0;
+    background: whitesmoke;
+    color: lightblue;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 18px 30px;
+}
+.support-title{
+    font-weight:700 ;
+    font-size: 65px;
+    background-image: url('../images/gradient1.png'),url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: whitesmoke;
+}
+/* contact styles */
+.contact{
+    display: flex;
+    gap:100px;
+    margin-top: 100px;
+    background: black;
+    color: white;
+    padding: 130px 200px;
+}
+.contact input[type="text"]{
+    margin:24px;
+    border: 0;
+    width: 100%;
+    padding:18px 30px;
+}
